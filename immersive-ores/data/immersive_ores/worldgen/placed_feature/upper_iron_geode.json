@@ -1,0 +1,196 @@
+{
+  "feature": "immersive_ores:upper_iron_geode",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 121
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "above_bottom": 84
+        },
+        "max_inclusive": {
+          "absolute": 216
+        }
+      }
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 24,
+      "target_condition": {
+        "type": "minecraft:true"
+      },
+      "allowed_search_condition": {
+        "type": "minecraft:any_of",
+        "predicates": [
+          {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "blocks": "minecraft:stone"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  -2,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:air",
+                  "minecraft:cave_air"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "blocks": "minecraft:stone"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  2,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:air",
+                  "minecraft:cave_air"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "blocks": "minecraft:stone"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  2,
+                  0,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:air",
+                  "minecraft:cave_air"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "blocks": "minecraft:stone"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  -2,
+                  0,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:air",
+                  "minecraft:cave_air"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "blocks": "minecraft:stone"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  0,
+                  2
+                ],
+                "blocks": [
+                  "minecraft:air",
+                  "minecraft:cave_air"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "blocks": "minecraft:stone"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  0,
+                  -2
+                ],
+                "blocks": [
+                  "minecraft:air",
+                  "minecraft:cave_air"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

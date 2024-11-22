@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:fences",
+    "#minecraft:beds",
+    "#minecraft:snow",
+    "#minecraft:features_cannot_replace",
+    "#minecraft:geode_invalid_blocks",
+    "#minecraft:spruce_logs",
+    "minecraft:spruce_leaves",
+    "minecraft:cobblestone",
+    "minecraft:cobblestone_stairs",
+    "minecraft:cobblestone_slab",
+    "minecraft:cobblestone_wall",
+    "minecraft:glass_pane"
+  ]
+}
